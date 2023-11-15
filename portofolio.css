@@ -1,0 +1,128 @@
+li {
+    list-style-type: none;
+}
+
+.head {
+    display: flex;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(247, 241, 241);
+    font-family: 'Press Start 2P';
+}
+
+a:hover {
+    background-color: rgba(235, 174, 57, 0.6);
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 5px 8px;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: rgb(114, 110, 110);
+    color: rgb(19, 16, 16);
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 0 0px;
+    border-radius: 12px;
+}
+
+.header-left {
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    float: left;
+    padding: 29px 10px;
+    cursor: pointer;
+}
+
+nav li:hover {
+    font-size: 20px;
+}    
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    padding: 30px 60px;
+    font-family: 'Press Start 2P';
+}
+
+body {
+    background: url(bakground\ abu.jpg) no-repeat fixed center;
+    background-size: 100%;
+}
+
+span {
+    color: white;
+}
+
+main {
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+.apatu {
+    margin-right: 50px;
+}
+
+footer {
+    background-color: rgb(114, 110, 110);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
+    margin: 0 0px;
+    border-radius: 12px;
+    margin-top: 21%;
+}    
+
+.flex-footer a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.flex-footer a:hover {
+    text-decoration: underline overline;
+    background-color: white;
+    color: rgb(114, 110, 110);
+}
